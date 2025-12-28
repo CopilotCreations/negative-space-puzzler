@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Thing You Didn\'t Touch</string>
+    <string name="game_title">The Thing You Didn\'t Touch</string>
+    <string name="game_subtitle">Find what you missed</string>
+    
+    <!-- Game Instructions -->
+    <string name="instruction_tap">Tap the canvas to interact</string>
+    <string name="instruction_find">Find the hidden solution</string>
+    <string name="instruction_hint">Hint: The answer lies where you haven\'t looked</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start">Start Game</string>
+    <string name="btn_reset">Reset Level</string>
+    <string name="btn_reveal">Reveal Solution</string>
+    <string name="btn_next_level">Next Level</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_privacy">Privacy Policy</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_accessibility">Accessibility</string>
+    <string name="settings_reduced_precision">Reduced Precision Mode</string>
+    <string name="settings_reduced_precision_desc">Larger touch targets for easier interaction</string>
+    <string name="settings_alternative_input">Alternative Input Mode</string>
+    <string name="settings_alternative_input_desc">Use swipe gestures instead of taps</string>
+    <string name="settings_high_contrast">High Contrast</string>
+    <string name="settings_high_contrast_desc">Increase color contrast for better visibility</string>
+    <string name="settings_haptic_feedback">Haptic Feedback</string>
+    <string name="settings_haptic_feedback_desc">Vibration feedback on interactions</string>
+    <string name="settings_show_ads">Show Ads</string>
+    <string name="settings_show_ads_desc">Support development with non-intrusive ads</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_summary">Your data stays on your device. We do not collect, transmit, or share any personal information.</string>
+    
+    <!-- Ads -->
+    <string name="ad_label">Advertisement</string>
+    <string name="ad_support">Support the developer</string>
+    
+    <!-- Accessibility -->
+    <string name="cd_canvas">Puzzle canvas - tap to interact</string>
+    <string name="cd_heatmap">Touch heatmap showing your interactions</string>
+    <string name="cd_solution">Solution area</string>
+    <string name="cd_settings_button">Open settings</string>
+    <string name="cd_close_button">Close</string>
+    
+    <!-- Level Complete -->
+    <string name="level_complete">Level Complete!</string>
+    <string name="level_failed">Try Again</string>
+    <string name="level_score">Score: %1$d</string>
+    <string name="level_time">Time: %1$s</string>
+    <string name="level_touches">Touches: %1$d</string>
+    
+    <!-- Tutorial -->
+    <string name="tutorial_welcome">Welcome to The Thing You Didn\'t Touch</string>
+    <string name="tutorial_step1">Touch anywhere on the canvas to explore</string>
+    <string name="tutorial_step2">The solution hides where you haven\'t touched</string>
+    <string name="tutorial_step3">Find the negative space to complete the level</string>
+    <string name="tutorial_skip">Skip Tutorial</string>
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_done">Got it!</string>
+</resources>
