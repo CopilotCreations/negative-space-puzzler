@@ -9,13 +9,27 @@ import sys
 import os
 
 def run_gradle(command: str, *args):
-    """Run a Gradle command."""
+    """Run a Gradle command.
+
+    Args:
+        command: The Gradle task to execute (e.g., 'build', 'test').
+        *args: Additional arguments to pass to the Gradle command.
+
+    Returns:
+        subprocess.CompletedProcess: The result of the subprocess execution.
+    """
     gradle_wrapper = "./gradlew.bat" if os.name == "nt" else "./gradlew"
     full_command = [gradle_wrapper, command, "--no-daemon"] + list(args)
     print(f"Running: {' '.join(full_command)}")
     return subprocess.run(full_command)
 
 def main():
+    """Parse command-line arguments and execute the corresponding command.
+
+    Reads the first command-line argument and dispatches to the appropriate
+    Gradle task or help function. Exits with the return code from Gradle
+    commands, or with code 1 for unknown commands.
+    """
     if len(sys.argv) < 2:
         print_help()
         return
@@ -43,6 +57,7 @@ def main():
         sys.exit(1)
 
 def print_help():
+    """Print the help message showing available commands and usage examples."""
     help_text = """
 Negative Space Puzzler - Development Scripts
 =============================================
